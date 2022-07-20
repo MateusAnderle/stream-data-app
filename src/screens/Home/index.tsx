@@ -102,10 +102,6 @@ export function Home() {
     getUserFollowedStreams();
   }, [])
 
-  // const signOutButtonProps = {
-  //   onPress: your-signOut-function
-  // }
-
   return (
     <Container
       from={{
